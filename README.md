@@ -8,9 +8,11 @@ This repository contains a **Node.js + Express + MongoDB backend** and a **React
 ## 🚀 Live Demo
 
 ### **Backend API**
+
 🔗 https://gigflow-1-7ms6.onrender.com/
 
 ### **Frontend App**
+
 🔗 https://gigflowharshal.netlify.app/
 
 ---
@@ -18,27 +20,31 @@ This repository contains a **Node.js + Express + MongoDB backend** and a **React
 ## 🛠️ Tech Stack
 
 ### **Frontend**
+
 - React (Vite)
 - Axios
 - Tailwind CSS
 - React Router
 
 ### **Backend**
-- Node.js  
-- Express.js  
-- MongoDB (Mongoose)  
-- JWT Authentication  
-- Cookie-based sessions  
+
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- Cookie-based sessions
 
 ### **Deployment**
-- **Render** → Backend  
-- **Netlify** → Frontend  
+
+- **Render** → Backend
+- **Netlify** → Frontend
 
 ---
 
 ## Backend Setup
 
 ### 1. Create `.env` file inside `backend/` with:
+
 MONGO_URI=your_mongodb_connection_string
 
 JWT_SECRET=your_secret_key
@@ -46,17 +52,25 @@ JWT_SECRET=your_secret_key
 PORT=5000
 
 ### 2. Install dependencies
+
 npm install
 
 ### 3. Start backend server
+
 npm start
 
 ## Frontend Setup
 
 ### 1. Install dependencies
+
 cd frontend
 npm install
 
 ### 2. Start development server
+
 npm run dev
 
+### 🚀 Deployment Planning (Upcoming)
+
+- **Frontend:** To be hosted on Vercel for optimized edge caching.
+- **Backend:** Node.js server deployment planned on Render/Heroku.
